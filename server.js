@@ -21,7 +21,7 @@ var htmlTemplate=`
          <html>
          <head>
          <title>
-          $(title)
+          ${title}
          </title>
          <link href='/ui/style.css' rel ='stylesheet' />
          </head>
@@ -29,9 +29,9 @@ var htmlTemplate=`
          
          <a href='/'>Home</a>
          <h3>
-         $(heading)
+         ${heading}
          </h3>
-         $(content)
+         ${content}
          </body>
          </html>
 
