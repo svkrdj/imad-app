@@ -7,19 +7,19 @@ app.use(morgan('combined'));
 
 
 var article={
-    'articleOne':{
+    'article-one':{
      title:'article one',
      heading:'js',
      content:    `<p>fee;gkjw;og</p>`
     },
-        'articleTwo':{
+        'article-two':{
      title:'article two',
      heading:'js',
      content: `
              <p>Akn</p>
              sdlvsjlsbj`
     },
-          'articleThree':{
+          'article-three':{
      title:'article three',
      heading:'js',
      content: `
