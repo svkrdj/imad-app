@@ -1,7 +1,7 @@
 //erkgn
 var button=document.getElementById('counter');
 
-button.onclick= function(){
+yo.onload= function(){
     
     var request = new XMLHttpRequest();
     
