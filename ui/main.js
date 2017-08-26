@@ -1,4 +1,4 @@
-//erkgn
+
 var button=document.getElementById('counter');
 
 yo.onload= function(){
@@ -21,7 +21,12 @@ yo.onload= function(){
     
     
 };
-var submit= document.getElementById(submit_btn);
+
+
+
+
+
+var submit= document.getElementById('submit_btn');
 submit.onclick= function() {
        var request = new XMLHttpRequest();
     
