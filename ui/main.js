@@ -1,4 +1,5 @@
 console.log('loaded');
+//lsndfln
 
 var img=document.getElementById('madi');
 var marginleft=0;
