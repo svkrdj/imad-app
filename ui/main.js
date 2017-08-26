@@ -1,13 +1,23 @@
-console.log('loaded');
-//lsndfln
+//erkgn
+var button=document.getElementById('counter');
 
-var img=document.getElementById('madi');
-var marginleft=0;
-function moveRight()
-{
-    marginleft=marginleft+1;
-    img.style.marginLeft= marginleft + 'px';
-}
-img.onclick = function() {
-    var interval=setInterval(moveRight,1);
+button.onclick= function(){
+    
+    var request = new XMLHttpRequest();
+    
+    
+    request.onreadystatechange = function(){
+      if(request.readyState === XMLHttpRequest.DONE){
+          if(ready.status ===200)
+          {
+          var counter= request.responseText;
+          var span = document.getElementById('count');
+          span.innerHTML=counter.getString();
+          }
+      }    
+    };
+    request.open('GET', 'http://svkrclg.imad.hasura-app.io/counter', true);
+    request.send(null);
+    
+    
 };
