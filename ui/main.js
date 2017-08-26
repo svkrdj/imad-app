@@ -1,4 +1,1 @@
-
-<script>
-alert("nkfgnerl");
-</script>
+console.log('loaded');
